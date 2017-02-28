@@ -1,4 +1,9 @@
 # -*- coding:utf-8 -*-
+'''
+给定视频ID,爬取B站弹幕  
+在未登录时只能爬取少量弹幕  
+登录后的爬取以后更新
+'''
 import requests
 import sys
 import re
