@@ -39,7 +39,7 @@ class BilibiliSpider:
 		try:
 			comments = re.findall(regex,commentXml)
 		except:
-			print ('cannot finnd comments')
+			print ('cannot find comments')
 			sys.exit(0)
 		return comments
 
